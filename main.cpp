@@ -17,13 +17,25 @@ int main()
 {
     int a;
     bool ervenytelen_valasz = true;
+    bool helyes_formatum = false;
+    bool helyes_formatum2 = false;
+    bool helyes_formatum3 = false;
 
     while (ervenytelen_valasz) {
         std::cout << "Valasszon a kovetkezo lehetosegek kozul:" << std::endl;
         std::cout << "1. Testek kiprobalasa" << std::endl;
         std::cout << "2. Program kiprobalasa" << std::endl;
-        std::cin >> a;
 
+        while (!helyes_formatum) {
+            std::cin >> a;
+            if (std::cin.fail()) {
+                std::cout << "Hibas formatum! Egy (pozitiv egesz) szamot szeretnek kerni." << std::endl;
+                std::cin.clear();
+                std::cin.ignore(100, '\n');
+            } else {
+                helyes_formatum = true;
+            }
+        }
         if (a == 1) {
             test();
             ervenytelen_valasz = false;
@@ -40,8 +52,17 @@ int main()
     if(a != 1){
     do {
         Menu_kiir();
-        std::cin >> valasz;
-
+            helyes_formatum2 = false;
+            while (!helyes_formatum2) {
+                std::cin >> valasz;
+                if (std::cin.fail()) {
+                    std::cout << "Hibas formatum! Egy (pozitiv egesz) szamot szeretnek kerni." << std::endl;
+                    std::cin.clear();
+                    std::cin.ignore(100, '\n');
+                } else{
+                    helyes_formatum2 = true;
+                }
+            }
         switch (valasz) {
             case 1:
                 clear_console();
@@ -51,7 +72,18 @@ int main()
                 std::cout << "[2]. Foci" << std::endl;
                 std::cout << "[3]. Kajak" << std::endl;
                 std::cout << "Valasztott sport: ";
-                std::cin >> sport;
+
+                helyes_formatum3 = false;
+                while (!helyes_formatum3) {
+                    std::cin >> sport;
+                    if (std::cin.fail()) {
+                        std::cout << "Hibas formatum! Egy (pozitiv egesz) szamot szeretnek kerni." << std::endl;
+                        std::cin.clear();
+                        std::cin.ignore(100, '\n');
+                    } else{
+                        helyes_formatum3 = true;
+                    }
+                }
 
                 switch (sport) {
                     case 1:
