@@ -1,0 +1,140 @@
+# depslib dependency file v1.0
+1685293580 source:d:\prog2\nhf_tiszta\sport_egyesulet\main.cpp
+	<iostream>
+	<sstream>
+	<cstring>
+	<fstream>
+	"egyesulet.h"
+	"string.h"
+	"gtest_lite.h"
+	"tarolo.h"
+	"vezerles.h"
+	"egyesulet_test.h"
+	"memtrace.h"
+
+1685034679 d:\prog2\nhf_tiszta\sport_egyesulet\memtrace.h
+	<new>
+	<cstdio>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<sstream>
+	<vector>
+	<list>
+	<map>
+	<algorithm>
+	<functional>
+	<memory>
+	<iomanip>
+	<locale>
+	<typeinfo>
+	<ostream>
+	<stdexcept>
+	<ctime>
+	<random>
+	<iterator>
+	<regex>
+
+1685307430 d:\prog2\nhf_tiszta\sport_egyesulet\egyesulet.h
+	<iostream>
+	"string.h"
+	"memtrace.h"
+
+1685294594 d:\prog2\nhf_tiszta\sport_egyesulet\string.h
+	<iostream>
+	"memtrace.h"
+
+1685037055 source:d:\prog2\nhf_tiszta\sport_egyesulet\memtrace.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<ctype.h>
+	"memtrace.h"
+
+1685283792 source:d:\prog2\nhf_tiszta\sport_egyesulet\string.cpp
+	<iostream>
+	<cstring>
+	"memtrace.h"
+	"string.h"
+
+1685293955 source:d:\prog2\nhf_tiszta\sport_egyesulet\egyesulet.cpp
+	<iostream>
+	<cstring>
+	<fstream>
+	"egyesulet.h"
+	"string.h"
+	"memtrace.h"
+
+1685034631 d:\prog2\nhf_tiszta\sport_egyesulet\gtest_lite.h
+	<iostream>
+	<cassert>
+	<cmath>
+	<cstring>
+	<limits>
+	<cstdlib>
+	<string>
+	<fstream>
+	<iterator>
+	<regex>
+	"memtrace.h"
+
+1685138391 d:\prog2\nhf_tiszta\sport_egyesulet\tarolo.hpp
+	<iostream>
+	<fstream>
+	"egyesulet.h"
+	"string.h"
+	"memtrace.h"
+
+1685291353 d:\prog2\nhf_tiszta\sport_egyesulet\tarolo.h
+	<iostream>
+	<fstream>
+	"egyesulet.h"
+	"string.h"
+	"memtrace.h"
+
+1685294604 source:d:\prog2\nhf_tiszta\sport_egyesulet\tarolo.cpp
+	<iostream>
+	<cstring>
+	<fstream>
+	"egyesulet.h"
+	"string.h"
+	"tarolo.h"
+	"memtrace.h"
+
+1686994644 source:d:\prog2\nhf_tiszta\sport_egyesulet\egyesulet_test.cpp
+	<iostream>
+	<sstream>
+	<cstring>
+	<fstream>
+	"egyesulet.h"
+	"string.h"
+	"gtest_lite.h"
+	"tarolo.h"
+	"memtrace.h"
+
+1685291458 d:\prog2\nhf_tiszta\sport_egyesulet\vezerles.h
+	"string.h"
+	"tarolo.h"
+	"egyesulet.h"
+	"memtrace.h"
+
+1685291422 source:d:\prog2\nhf_tiszta\sport_egyesulet\vezerles.cpp
+	<iostream>
+	"string.h"
+	"tarolo.h"
+	"egyesulet.h"
+	"vezerles.h"
+	"memtrace.h"
+
+1685291444 d:\prog2\nhf_tiszta\sport_egyesulet\egyesulet_test.h
+	<iostream>
+	<sstream>
+	<cstring>
+	<fstream>
+	"egyesulet.h"
+	"string.h"
+	"gtest_lite.h"
+	"tarolo.h"
+	"memtrace.h"
+
